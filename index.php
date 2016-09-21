@@ -3,7 +3,7 @@
     the_post();
     echo "<h2>", get_the_title(), "</h2>";
 endwhile;
-*/?>....
+*/?>
 <?php
 /**
  * The main template file.
