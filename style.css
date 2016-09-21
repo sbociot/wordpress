@@ -256,7 +256,7 @@ td,
 th {
 	padding: 0;
 }
-
+nav
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -536,6 +536,8 @@ a:active {
 	display: block;
 	float: left;
 	width: 100%;
+	background-color: #3fa46a;
+	padding: 10px;
 }
 
 .main-navigation ul {
@@ -543,6 +545,7 @@ a:active {
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
+
 }
 
 .main-navigation li {
@@ -550,10 +553,15 @@ a:active {
 	position: relative;
 }
 
-.main-navigation a {
+/*.main-navigation a {
 	display: block;
 	text-decoration: none;
-}
+	margin-right: 50px;
+	color: white;
+	font-size: 20px;
+
+
+}*/
 
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -571,23 +579,40 @@ a:active {
 
 .main-navigation ul ul a {
 	width: 200px;
-}
-
-.main-navigation ul ul li {
 
 }
 
-.main-navigation li:hover > a,
-.main-navigation li.focus > a {
+.main-navigation ul ul li a :hover {
+
+}
+#primary-menu ul li a{
+	transition: 0.3s ease-out;
+	background: #3fa46a;
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	border-top: 4px solid #3fa46a;
+	border-bottom: 4px solid #3fa46a;
+	margin: 0 20px;
+}
+#primary-menu ul li a:hover{
+	border-top: 2px solid #ffffff;
+	border-bottom: 2px solid #ffffff;
+	border-right: 2px solid #ffffff;
+	border-left: 2px solid #ffffff;
+	padding: 5px;
+	border-radius: 10px;
+	width: 50px;
+}
+.main-navigation li:hover{
+	transition: 0.3s ease-out;
 }
 
 .main-navigation ul ul :hover > a,
 .main-navigation ul ul .focus > a {
 }
 
-.main-navigation ul ul a:hover,
-.main-navigation ul ul a.focus {
-}
+
 
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
