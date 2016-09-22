@@ -803,7 +803,7 @@ a:active {
 }
 
 .page-content,
-.entry-content,
+
 .entry-summary {
 	margin: 1.5em 0 0;
 }
@@ -869,7 +869,8 @@ object {
     display: block;
     width: 416px;
     position: absolute;
-    margin-top: 65px;
+    margin-top: 70px;
+    margin-left: 457px;
 }
 .wp-caption img[class*="wp-image-"]:hover{
     -webkit-transform: scale(1);
@@ -883,7 +884,7 @@ object {
     font-weight: 100;
     position: relative;
     margin-top: 290px;
-    margin-left: 43px;
+    margin-left: 500px;
     padding: 5px;
     background-color: black;
     color: white;
@@ -971,4 +972,23 @@ figcaption{
 }
 .widget-title{
     text-align: center;
+}
+.entry-content >h1{
+   width: 483px;
+    height: 276px;
+    background-color: lightgrey;
+    padding: 10px;
+    margin-top: 128px;
+    margin-left: 23px;
+    position: absolute;
+
+}
+.entry-content>p{
+    width: 483px;
+    height: 154px;
+    background-color: lightgrey;
+    padding: 10px;
+    margin-top: 251px;
+    margin-left: 23px;
+    position: absolute;
 }
