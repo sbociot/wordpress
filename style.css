@@ -349,6 +349,7 @@ html {
 *:before,
 *:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
 	box-sizing: inherit;
+    list-style: none;
 }
 
 body {
@@ -471,6 +472,8 @@ textarea {
 	border: 1px solid #ccc;
 	border-radius: 3px;
 	padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 select {
@@ -507,12 +510,16 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+	color: white;
+    text-decoration: none;
+    list-style: none;
 }
 
+/*
 a:visited {
 	color: purple;
 }
+*/
 
 a:hover,
 a:focus,
@@ -863,7 +870,7 @@ object {
     display: block;
     width: 416px;
     position: absolute;
-    margin-top: -212px;
+    margin-top: 65px;
 }
 .wp-caption img[class*="wp-image-"]:hover{
     -webkit-transform: scale(1);
@@ -956,8 +963,13 @@ figcaption{
     margin-right: 30px;
     margin-top: -330px;
     position: relative;
+  background-color: #b4b9be;
+    padding: 10px;
+}
+#search-2,#recent-comments-2,#categories-2 {
+    border-bottom: 3px solid black;
 
 }
-#search-2,#recent-comments-2,#categories-2{
-    border-bottom: 3px solid black;
+.widget-title{
+    text-align: center;
 }
