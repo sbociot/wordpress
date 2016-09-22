@@ -882,8 +882,8 @@ object {
     width: 325px;
     font-size: 15px;
     font-weight: 100;
-    position: relative;
-    margin-top: 290px;
+    position: absolute;
+    margin-top: 295px;
     margin-left: 500px;
     padding: 5px;
     background-color: black;
@@ -961,7 +961,7 @@ figcaption{
 #secondary {
     float: right;
     margin-right: 30px;
-    margin-top: -330px;
+    margin-top: -1260px;
     position: relative;
   background-color: #b4b9be;
     padding: 10px;
@@ -973,22 +973,22 @@ figcaption{
 .widget-title{
     text-align: center;
 }
-.entry-content >h1{
-   width: 483px;
-    height: 276px;
-    background-color: lightgrey;
-    padding: 10px;
-    margin-top: 128px;
-    margin-left: 23px;
-    position: absolute;
 
-}
 .entry-content>p{
     width: 483px;
-    height: 154px;
+    height: 277px;
+    background-color: lightgrey;
+    padding: 50px;
+    margin-top: 86px;
+    margin-left: 23px;
+    position: relative;
+
+}
+.jspContainer{
+    width: 525px;
+    margin-top: 210px;
     background-color: lightgrey;
     padding: 10px;
-    margin-top: 251px;
-    margin-left: 23px;
-    position: absolute;
+    float: right;
+    margin-right: 361px;
 }
