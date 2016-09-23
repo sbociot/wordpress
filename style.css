@@ -71,6 +71,14 @@ section,
 summary {
 	display: block;
 }
+#post-101{
+    background-color: #9ea7af;
+}
+
+.alignnone{
+    float: left;
+
+}
 
 audio,
 canvas,
@@ -282,9 +290,9 @@ h6 {
 	clear: both;
 }
 
-p {
+/*p {
 	margin-bottom: 1.5em;
-}
+}*/
 
 dfn,
 cite,
@@ -767,9 +775,16 @@ a:active {
 # Widgets
 --------------------------------------------------------------*/
 .widget {
-	margin: 0 0 1.5em;
+	/*margin: 0 0 1.5em;*/
 }
-
+.widget ul li a{
+    margin-right: 90px;
+    margin-bottom: 33px;
+    padding: 19px;
+    border-bottom: 1px solid black;
+    color: black;
+    display: block;
+}
 /* Make sure select elements fit in widgets. */
 .widget select {
 	max-width: 100%;
@@ -959,36 +974,24 @@ figcaption{
     position: relative;
 }*/
 #secondary {
-    float: right;
-    margin-right: 30px;
-    margin-top: -1260px;
-    position: relative;
-  background-color: #b4b9be;
-    padding: 10px;
+width: 300px;
+    float: left;
+    margin: 20px;
+    background-color:whitesmoke;
+    color: black;
+
+    text-align: center;
 }
-#search-2,#recent-comments-2,#categories-2 {
+#meta2>ul>li>a{
+    color: black;
+}
+/*#search-2,#recent-comments-2,#categories-2 {
     border-bottom: 3px solid black;
 
-}
+}*/
 .widget-title{
     text-align: center;
 }
-
-.entry-content>p{
-    width: 483px;
-    height: 277px;
-    background-color: lightgrey;
-    padding: 50px;
-    margin-top: 86px;
-    margin-left: 23px;
-    position: relative;
-
-}
-.jspContainer{
-    width: 525px;
-    margin-top: 210px;
-    background-color: lightgrey;
-    padding: 10px;
-    float: right;
-    margin-right: 361px;
+.sectionCopy_bodyCopy{
+    width:300px;
 }
