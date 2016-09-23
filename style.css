@@ -76,7 +76,8 @@ summary {
 }
 
 .alignnone{
-    float: left;
+	width: 700px;
+	margin-left: 400px;
 
 }
 
@@ -975,13 +976,14 @@ figcaption{
     position: relative;
 }*/
 #secondary {
-width: 300px;
-    float: left;
-    margin: 20px;
-    background-color:whitesmoke;
-    color: black;
-
-    text-align: center;
+	width: 300px;
+	float: left;
+	margin: 20px;
+	background-color: whitesmoke;
+	color: black;
+	text-align: center;
+	position: relative;
+	margin-top: -3627px;
 }
 #meta2>ul>li>a{
     color: black;
@@ -1002,7 +1004,32 @@ width: 300px;
 .entry-content>p:nth-of-type(2){
 	display: block;
 	padding: 10px;
-	width: 850px;
 	background-color: white;
-	margin-top: 500px;
+	width: 200px;
+	text-align: center;
+	font-weight: 600;
+	font-size: 30px;
+	position: absolute;
+	margin-left: 630px;
+	margin-top: -75px;
+}
+.entry-content>p:nth-of-type(3){
+	display: block;
+	padding: 10px;
+	width: 800px;
+	background-color: white;
+	margin-top: -20px;
+	margin-left: 350px;
+}
+.entry-footer{
+	display: inline-block;
+	background-color: whitesmoke;
+	margin-left: 350px;
+	padding: 20px;
+	margin-top: -16px;
+	position: absolute;
+	width: 800px;
+}
+.entry-footer a{
+	margin: 20px;
 }

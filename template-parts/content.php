@@ -22,6 +22,7 @@
 		<div class="entry-meta">
 			<?php debutan_posted_on(); ?>
 		</div><!-- .entry-meta -->
+			the_post_thumbnail()
 		<?php
 		endif; ?>
 	</header><!-- .entry-header -->
