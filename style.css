@@ -405,6 +405,7 @@ dd {
 img {
 	height: auto; /* Make sure images are scaled correctly. */
 	max-width: 100%; /* Adhere to container width. */
+	width: auto;
 }
 
 table {
@@ -621,6 +622,9 @@ a:active {
 	}
 	.main-navigation ul {
 		display: block;
+	}
+	.zozo{
+		/*display: none;*/
 	}
 }
 
@@ -929,13 +933,62 @@ section{
 	padding: 20px;
 }
 .entry-title a , .entry-meta a  {
-	display: block;
+	display: inline-block;
 	background-color: white;
 	padding: 10px;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: black;
+	width: 200px;
+	text-align: center;
 }
+
+
 .entry-title a:hover , .entry-meta a:hover{
 	color:green;
+}
+.entry-footer a {
+	margin: 20px;
+
+}
+.entry-footer span {
+	border-right: 2px solid grey;
+}
+.entry-content{
+	margin-left: 25%;
+	width: 90%;
+
+}
+.entry-content p:first-child{
+	width: 640px;
+	height: 415px;
+}
+.entry-content p:nth-of-type(3){
+	margin-left: -19.99%;
+	width: 80%;
+	padding: 5%;
+	position: relative;
+	margin-top: -5%;
+
+}
+/*
+.zozo {
+	width:640px;
+	height: 415px;
+	margin-left: 10%;
+}*/
+.entry-footer{
+	margin-left: 417px;
+	background-color: white;
+	padding: 20px;
+	width: 800px;
+	margin-top: -5%;
+
+}
+.entry-content p:nth-of-type(2){
+	background-color: white;
+	padding:20px;
+	/*margin-top: -25%;*/
+	width: 200px;
+
 }
