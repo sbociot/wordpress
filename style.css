@@ -509,14 +509,16 @@ a {
 	color: royalblue;
 }
 
+/*
 a:visited {
 	color: purple;
 }
+*/
 
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	color: #5d9c0a;
 }
 
 a:focus {
@@ -900,12 +902,16 @@ object {
 }
 section{
 	text-decoration: none;
-	border-bottom: 1px solid;
+
 }
 section a{
 	text-decoration: none;
 	color: white;
+
 }
 section li{
 	list-style: none;
+	display: list-item;
+	border-bottom: 1px solid;
+	padding: 5px;
 }
