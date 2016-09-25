@@ -621,7 +621,7 @@ a:active {
 		display: none;
 	}
 	.main-navigation ul {
-		display: block;
+		display: none;
 	}
 	.zozo{
 		display: none;
@@ -981,7 +981,7 @@ section{
 	background-color: white;
 	padding: 20px;
 	width: 800px;
-	margin-top: -5%;
+	margin-top: 1%;
 
 }
 .entry-content p:nth-of-type(2){
@@ -989,7 +989,7 @@ section{
 	padding:20px;
 	/*margin-top: -25%;*/
 	width: 200px;
-
+	margin-left: 0;
 }
 #site-navigation ul li a{
 	margin: 30px;
@@ -1034,7 +1034,8 @@ section{
 .entry-footer>span>a {
 	text-decoration: none;
 	color:black;
+	text-transform: uppercase;
 }
-.entry-footer>span>a :hover{
-	color: green;
-}
+.entry-footer>span>a:hover{
+	 color: green;
+ }
