@@ -1,5 +1,5 @@
 /*
-Theme Name: debutan
+Theme Name: _S
 Theme URI: http://underscores.me/
 Author: Underscores.me
 Author URI: http://underscores.me/
@@ -7,13 +7,13 @@ Description: Description
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: debutan
+Text Domain: _S
 Tags:
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 
-debutan is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+_S is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
 
 Normalizing styles have been helped along thanks to the fine work of
@@ -54,7 +54,6 @@ html {
 
 body {
 	margin: 0;
-
 }
 
 article,
@@ -70,15 +69,6 @@ nav,
 section,
 summary {
 	display: block;
-}
-#post-101{
-    background-color: #9ea7af;
-}
-
-.alignnone{
-	width: 700px;
-	margin-left: 400px;
-
 }
 
 audio,
@@ -266,7 +256,7 @@ td,
 th {
 	padding: 0;
 }
-nav
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -291,9 +281,9 @@ h6 {
 	clear: both;
 }
 
-/*p {
+p {
 	margin-bottom: 1.5em;
-}*/
+}
 
 dfn,
 cite,
@@ -313,7 +303,8 @@ address {
 pre {
 	background: #eee;
 	font-family: "Courier 10 Pitch", Courier, monospace;
-
+	font-size: 15px;
+	font-size: 0.9375rem;
 	line-height: 1.6;
 	margin-bottom: 1.6em;
 	max-width: 100%;
@@ -357,7 +348,6 @@ html {
 *:before,
 *:after { /* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
 	box-sizing: inherit;
-    list-style: none;
 }
 
 body {
@@ -412,7 +402,7 @@ dd {
 
 img {
 	height: auto; /* Make sure images are scaled correctly. */
-/*	max-width: 100%; !* Adhere to container width. *!*/
+	max-width: 100%; /* Adhere to container width. */
 }
 
 table {
@@ -480,8 +470,6 @@ textarea {
 	border: 1px solid #ccc;
 	border-radius: 3px;
 	padding: 3px;
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
 
 select {
@@ -518,17 +506,12 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: black;
-    text-decoration: none;
-    list-style: none;
-	font-weight: 100;
+	color: royalblue;
 }
 
-/*
 a:visited {
 	color: purple;
 }
-*/
 
 a:hover,
 a:focus,
@@ -548,21 +531,18 @@ a:active {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
-/*.main-navigation {
+.main-navigation {
 	clear: both;
 	display: block;
 	float: left;
 	width: 100%;
-	background-color: black;
-	padding: 10px;
-}*/
+}
 
 .main-navigation ul {
 	display: none;
 	list-style: none;
 	margin: 0;
 	padding-left: 0;
-
 }
 
 .main-navigation li {
@@ -570,15 +550,10 @@ a:active {
 	position: relative;
 }
 
-/*.main-navigation a {
+.main-navigation a {
 	display: block;
 	text-decoration: none;
-	margin-right: 50px;
-	color: white;
-	font-size: 20px;
-
-
-}*/
+}
 
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -596,41 +571,23 @@ a:active {
 
 .main-navigation ul ul a {
 	width: 200px;
+}
+
+.main-navigation ul ul li {
 
 }
 
-.main-navigation ul ul li a :hover {
-
-}
-#primary-menu ul li a{
-	transition: 0.3s ease-out;
-	background: black;
-	color: white;
-	font-size: 20px;
-    font-weight: 100;
-	text-decoration: none;
-	border-top: 4px solid black;
-	border-bottom: 4px solid black;
-	margin: 0 20px;
-}
-#primary-menu ul li a:hover{
-	border-top: 2px solid #ffffff;
-	border-bottom: 2px solid #ffffff;
-	/*border-right: 2px solid #ffffff;
-	border-left: 2px solid #ffffff;*/
-	padding: 5px;
-	border-radius: 5px;
-	width: 50px;
-}
-.main-navigation li:hover{
-	transition: 0.3s ease-out;
+.main-navigation li:hover > a,
+.main-navigation li.focus > a {
 }
 
 .main-navigation ul ul :hover > a,
 .main-navigation ul ul .focus > a {
 }
 
-
+.main-navigation ul ul a:hover,
+.main-navigation ul ul a.focus {
+}
 
 .main-navigation ul li:hover > ul,
 .main-navigation ul li.focus > ul {
@@ -777,22 +734,12 @@ a:active {
 # Widgets
 --------------------------------------------------------------*/
 .widget {
-	/*margin: 0 0 1.5em;*/
+	margin: 0 0 1.5em;
 }
-.widget ul li a{
-    margin-right: 90px;
-    margin-bottom: 33px;
-    padding: 19px;
-    border-bottom: 1px solid black;
-    color: black;
-    display: block;
-}
+
 /* Make sure select elements fit in widgets. */
 .widget select {
 	max-width: 100%;
-}
-.entry-header{
-    display: none;
 }
 
 /*--------------------------------------------------------------
@@ -820,7 +767,7 @@ a:active {
 }
 
 .page-content,
-
+.entry-content,
 .entry-summary {
 	margin: 1.5em 0 0;
 }
@@ -882,42 +829,19 @@ object {
 	max-width: 100%;
 }
 
-/*.wp-caption img[class*="wp-image-"] {
-    display: block;
-    width: 416px;
-    position: absolute;
-    margin-top: 70px;
-    margin-left: 457px;
-}*/
-.wp-caption img[class*="wp-image-"]:hover{
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
-/*.wp-caption .wp-caption-text {
-    width: 325px;
-    font-size: 15px;
-    font-weight: 100;
-    position: absolute;
-    margin-top: 295px;
-    margin-left: 500px;
-    padding: 5px;
-    background-color: black;
-    color: white;
-}*/
 
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
 
-
-/*.wp-caption-text {
-    text-align: center;
-    background-color: black;
-    color: white;
-    !*
-      margin-left: 750px;
-      margin-top: -78px;*!
-}*/
-
+.wp-caption-text {
+	text-align: center;
+}
 
 /*--------------------------------------------------------------
 ## Galleries
@@ -967,69 +891,4 @@ object {
 
 .gallery-caption {
 	display: block;
-}
-/*
-figcaption{
-    background-color: #00a0d2;
-    padding: 5px;
-    margin-left: 500px;
-    position: relative;
-}*/
-#secondary {
-	width: 300px;
-	float: left;
-	margin: 20px;
-	background-color: whitesmoke;
-	color: black;
-	text-align: center;
-	position: relative;
-	margin-top: -3627px;
-}
-#meta2>ul>li>a{
-    color: black;
-}
-/*#search-2,#recent-comments-2,#categories-2 {
-    border-bottom: 3px solid black;
-
-}*/
-.widget-title{
-    text-align: center;
-}
-#page{
-	background-color: lightgrey;
-}
-.entry-content{
-	display: block;
-}
-.entry-content>p:nth-of-type(2){
-	display: block;
-	padding: 10px;
-	background-color: white;
-	width: 200px;
-	text-align: center;
-	font-weight: 600;
-	font-size: 30px;
-	position: absolute;
-	margin-left: 630px;
-	margin-top: -75px;
-}
-.entry-content>p:nth-of-type(3){
-	display: block;
-	padding: 10px;
-	width: 800px;
-	background-color: white;
-	margin-top: -20px;
-	margin-left: 350px;
-}
-.entry-footer{
-	display: inline-block;
-	background-color: whitesmoke;
-	margin-left: 350px;
-	padding: 20px;
-	margin-top: -16px;
-	position: absolute;
-	width: 800px;
-}
-.entry-footer a{
-	margin: 20px;
 }

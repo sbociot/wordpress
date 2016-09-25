@@ -22,8 +22,9 @@
 		<div class="entry-meta">
 			<?php debutan_posted_on(); ?>
 		</div><!-- .entry-meta -->
-			the_post_thumbnail()
+
 		<?php
+			echo "<p class='zozo'>";the_post_thumbnail('thumbnail medium');echo "</p>";
 		endif; ?>
 	</header><!-- .entry-header -->
 
