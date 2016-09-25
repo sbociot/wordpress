@@ -1031,3 +1031,10 @@ section{
 	margin-right: 30px;
 
 }
+.entry-footer>span>a {
+	text-decoration: none;
+	color:black;
+}
+.entry-footer>span>a :hover{
+	color: green;
+}
