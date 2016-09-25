@@ -24,7 +24,7 @@
 		</div><!-- .entry-meta -->
 
 		<?php
-			echo "<p class='zozo'>";the_post_thumbnail('thumbnail medium');echo "</p>";
+			echo "<p class='zozo'>";the_post_thumbnail('thumbnail small');echo "</p>";
 		endif; ?>
 	</header><!-- .entry-header -->
 
