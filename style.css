@@ -615,18 +615,16 @@ a:active {
 .main-navigation.toggled ul {
 	display: block;
 }
-
+/*
 @media screen and (min-width: 37.5em) {
 	.menu-toggle {
 		display: none;
 	}
-	.main-navigation ul {
-		display: none;
-	}
+
 	.zozo{
 		display: none;
 	}
-}
+}*/
 
 .site-main .comment-navigation,
 .site-main .posts-navigation,
@@ -1022,7 +1020,7 @@ section{
 }
 .entry-header{
 	display: flex;
-	margin-left: 390px;
+	margin-left: 315px;
 }
 .entry-meta{
 	margin-top: 30px
@@ -1039,3 +1037,6 @@ section{
 .entry-footer>span>a:hover{
 	 color: green;
  }
+.zozo{
+	display: none;
+}
