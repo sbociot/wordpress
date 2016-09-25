@@ -892,3 +892,9 @@ object {
 .gallery-caption {
 	display: block;
 }
+#secondary{
+	background-color: black;
+	color: white;
+	font-weight: 100;
+	font-family: Sans-Serif;
+}
