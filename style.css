@@ -1080,6 +1080,13 @@ section{
 label{
 	margin-left: 632px;
 }
+textarea{
+	width: 800px;
+	margin-left: 280px;
+}
+.form-submit{
+	margin-left: 280px;
+}
 @media screen and (max-width: 800px){
 	.reponsive-menu-button{
 
