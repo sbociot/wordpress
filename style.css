@@ -1063,6 +1063,23 @@ section{
 .nav-next a:hover{
 	color: green;
 }
+.comment-reply-title{
+	text-align: center;
+}
+.logged-in-as a{
+	margin-left: 80px;
+	background-color: white;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+.logged-in-as :first-of-type{
+	margin-left: 320px;
+}
+label{
+	margin-left: 632px;
+}
 @media screen and (max-width: 800px){
 	.reponsive-menu-button{
 
