@@ -1088,7 +1088,32 @@ textarea{
 	margin-left: 280px;
 }
 @media screen and (max-width: 800px){
-	.reponsive-menu-button{
+.entry-footer{
+	margin-left: 0;
+	width: 404px;
 
+}
+	.alignnone{
+		margin-left: -100px;
+	}
+	.nav-previous a{
+		margin-left: 1px;
+	}
+	.nav-next a {
+		margin-right: 1px;
+	}
+	.logged-in-as a {
+		display: inline-flex;
+		margin-left: 195px;
+	}
+	.entry-header{
+		margin-left: 0;
+	}
+	textarea{
+		margin-left: 0;
+		width: 400px;
+	}
+	.form-submit{
+		margin-left: 1px;
 	}
 }
