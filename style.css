@@ -270,7 +270,7 @@ textarea {
 	color: #404040;
 	font-family: sans-serif;
 	font-size: 16px;
-	font-size: 1rem;
+
 	line-height: 1.5;
 }
 
@@ -1045,7 +1045,7 @@ section{
 	margin-left: 150px;
 	text-transform: uppercase;
 	font-size: 17px;
-	font-weight: 200;
+	font-weight: 600;
 	text-decoration: none;
 	color: black;
 }
@@ -1072,7 +1072,11 @@ section{
 	padding: 10px;
 	text-decoration: none;
 	text-transform: uppercase;
+	color: black;
 
+}
+.logged-in-as a:hover{
+	color: green;
 }
 .logged-in-as :first-of-type{
 	margin-left: 320px;
@@ -1087,6 +1091,7 @@ textarea{
 .form-submit{
 	margin-left: 280px;
 }
+
 @media screen and (max-width: 800px){
 .entry-footer{
 	margin-left: 0;
@@ -1115,5 +1120,8 @@ textarea{
 	}
 	.form-submit{
 		margin-left: 1px;
+	}
+.menu-trigger{
+		display: none;
 	}
 }
